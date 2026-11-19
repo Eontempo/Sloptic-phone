@@ -11,5 +11,4 @@ ENV NODE_ENV=production
 ENV PORT=3000
 ENV MAX_AUDIO_MB=200
 EXPOSE 3000
-VOLUME ["/app/uploads"]
 CMD ["node", "server.js"]
